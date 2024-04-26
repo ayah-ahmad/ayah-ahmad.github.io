@@ -5,52 +5,114 @@
       color: #8f6088;
     }
   </style>
-  <title>Notes</title>
+
+<style>
+  /* Style the navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: #8f6088;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Evenly space out the navigation links */
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    color: white;
+    text-align: center;
+    padding: 10px 10%;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #cdb7ca;
+    color: black;
+  }
+  
+  /* Add a media query for mobile devices */
+  @media screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column; /* Stack links vertically on small screens */
+    }
+    .navbar a {
+      padding: 5px 0; /* Adjust padding for smaller screens */
+      width: 100%; /* Make links full width on smaller screens */
+      text-align: center; /* Center align links on smaller screens */
+    }
+  }
+  </style>
+
+
+  </head>
+  <body>
+  
+  <!-- Navigation bar -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="notes.html">Notes</a>
+    <a href="miscellaneous.html">Misc</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+
+  <title>Ayah Ahmad</title>
   <meta name="author" content="Ayah Ahmad">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  <link rel="shortcut icon" href="images/avatar.png" />
 </head>
 
-  <body>
+<body>
+  <style>
+    a {
+      color: #8f6088;
+    }
+  </style>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Notes</name>
+              </p>
+              <p style="text-align:center">
+              </p>
+              <p> Below are some of the digitized (mostly handwritten) notes I've taken for some of my classes here at UC Berkeley.
 
-    <main class="container-sm container-scale">
-      <h2>Notes</h2>
-      <p>Below are some of the digitized (mostly handwritten) notes I've taken for my classes here at UC Berkeley.</p>
-      <i>EECS</i>
-      <ul>
-        <li><b>EECS 16A</b>: Designing Information Devices and Systems I
-          (<a href="notes/eecs16a/16a_lecs.pdf" target="_blank">lecture notes</a>)
-        </li>
-        <li><b>EECS 16B</b>: Designing Information Devices and Systems II
-            (<a href="notes/eecs16a/16b_lecs.pdf" target="_blank">lecture notes</a>)
-          </li>
-        <li><b>EECS 126</b>: Probability and Random Processes 
-            (<a href="notes/eecs16a/16b_lecs.pdf" target="_blank">lecture notes</a>)
-        </li>
-        <li><b>EECS 127</b>: Optimization Models in Engineering 
-            (<a href="notes/eecs16a/16b_lecs.pdf" target="_blank">lecture notes</a>)
-        </li>
-      </ul>
-      <i>Physics</i>
-      <ul>
-        <li><b>PHYSICS 7A</b>: Physics for Scientists & Engineers I
-            (<a href="notes/physics 7a/7a lectures.pdf" target="_blank">lecture notes</a>)
-        </li> 
-        <li><b>PHYSICS 7B</b>: Physics for Scientists & Engineers II
-            (<a href="notes/physics 7a/7a lectures.pdf" target="_blank">lecture notes</a>)
-        </li> 
-      </ul>
-      <i>Math</i>
-      <ul>
-        <li><b>MATH H53</b>: Honors Multivariable Calculus
-            (<a href="notes/math_h53/math h53 lectures.pdf" target="_blank">lecture notes</a>)
-          </li>
-      </ul>
-      
-      <hr>
+              </p>
+            </p>
+              <p>
+              </p>
+              <p style="text-align:center">
+                <a href="cs188.html">CS 188</a> &nbsp/&nbsp
+                <a href="eecs151.html">EECS 151</a> &nbsp/&nbsp
+                <a href="eecs127.html">EECS 127</a> &nbsp/&nbsp
+                <a href="eecs126.html">EECS 126</a> &nbsp/&nbsp
+                <a href="eecs16b.html">EECS 16B</a> &nbsp/&nbsp
+                <a href="eecs16a.html">EECS 16A</a> &nbsp/&nbsp
+                <a href="mathh53.html">MATH H53</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img src="images/whiteboard.jpg" alt="eecs127 logo" onmouseover="this.src='images/whiteboard-ayah.png'" onmouseout="this.src='images/whiteboard.png'" style="width:100%;max-width:100%">
+            </td>
+          </tr>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Website source code from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.  
+              <!-- TODO: backlink -->
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
 
-    </main>
-  </body>
 </html>
