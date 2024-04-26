@@ -5,54 +5,123 @@
       color: #8f6088;
     }
   </style>
-  <title>Notes</title>
+
+<style>
+  /* Style the navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: #8f6088;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Evenly space out the navigation links */
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    color: white;
+    text-align: center;
+    padding: 10px 10%;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #cdb7ca;
+    color: black;
+  }
+  
+  /* Add a media query for mobile devices */
+  @media screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column; /* Stack links vertically on small screens */
+    }
+    .navbar a {
+      padding: 5px 0; /* Adjust padding for smaller screens */
+      width: 100%; /* Make links full width on smaller screens */
+      text-align: center; /* Center align links on smaller screens */
+    }
+  }
+  </style>
+
+
+  </head>
+  <body>
+  
+  <!-- Navigation bar -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="notes.html">Notes</a>
+    <a href="miscellaneous.html">Misc</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+
+  <title>Ayah Ahmad</title>
   <meta name="author" content="Ayah Ahmad">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="shortcut icon" href="images/avatar.png" />
 </head>
 
-  <body>
+<body>
+  <style>
+    a {
+      color: #8f6088;
+    }
+  </style>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>EECS 16B</name>
+              </p>
+              <p style="text-align:center">
+              </p>
+              <p> Notes taken in Professor Anant Sahai's Fall 2021 EECS 16B course. </p>
+            </p>
+              <p>
+              </p>
+              <p style="text-align:center">
+                <a href="cs188.html">CS 188</a> &nbsp/&nbsp
+                <a href="eecs151.html">EECS 151</a> &nbsp/&nbsp
+                <a href="eecs127.html">EECS 127</a> &nbsp/&nbsp
+                <a href="eecs126.html">EECS 126</a> &nbsp/&nbsp
+                <a href="eecs16b.html">EECS 16B</a> &nbsp/&nbsp
+                <a href="eecs16a.html">EECS 16A</a> &nbsp/&nbsp
+                <a href="mathh53.html">MATH H53</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img src="images/eecs126logo.png" alt="eecs127 logo" onmouseover="this.src='images/eecs126n.png'" onmouseout="this.src='images/eecs126logo.png'" style="width:100%;max-width:100%">
+            </td>
+          </tr>
 
-    <main class="container-sm container-scale">
-      <h2>EECS 127: Optimization Models in Engineering</h2>
-      <p> Notes taken in Professor Gireeja Ranade's Fall 2022 EECS 127 course. Please note that these are my unmodified class notes, so they may have errors or notes to myself. </p>
-      <i>Lectures</i>
-      <ol>
-        <li> No Notes. Introduction
-        <li> <a href="notes/eecs127/2 Linear Algebra Review Vector Norms, Gram-Schmidt and QR, Fundamental Theorem of Linear Algebra.pdf" target="_blank">Linear Algebra Review Vector Norms, Gram-Schmidt and QR, Fundamental Theorem of Linear Algebra</a></li>
-        <li> <a href="notes/eecs127/3 Linear Algebra Review Symmetric Matrices.pdf" target="_blank">Linear Algebra Review Symmetric Matrices</a></li>
-        <li> <a href="notes/eecs127/4 Principal Component Analysis.pdf" target="_blank">Principal Component Analysis</a></li>
-        <li> <a href="notes/eecs127/5 SVD and Low-Rank Approximation.pdf" target="_blank">SVD and Low-Rank Approximation</a></li>
-        <li> <a href="notes/eecs127/6 Low-Rank Approximation.pdf" target="_blank">Low-Rank Approximation</a></li>
-        <li> <a href="notes/eecs127/7 Vector Calculus.pdf" target="_blank">Vector Calculus</a></li>
-        <li> <a href="notes/eecs127/8 Ridge Regression.pdf" target="_blank">Ridge Regression</a></li>
-        <li> <a href="notes/eecs127/9 Connections Ridge, PCA, MLE.pdf" target="_blank">Connections: Ridge, PCA, MLE</a></li>
-        <li> <a href="notes/eecs127/10 Convexity 1.pdf" target="_blank">Convexity 1</a></li>
-        <li> <a href="notes/eecs127/11 Convexity 2.pdf" target="_blank">Convexity 2</a></li>
-        <li> <a href="notes/eecs127/12 Descent Methods.pdf" target="_blank">Descent Methods</a></li>
-        <li> <a href="notes/eecs127/13 Descent Methods & Convex Optimization.pdf" target="_blank">Descent Methods & Convex Optimization</a></li>
-        <li> No Notes. Bonus Lecture: Principal Components Regression, Total Least Squares 
-        <li> <a href="notes/eecs127/15 Weak Duality.pdf" target="_blank">Weak Duality</a></li>
-        <li> <a href="notes/eecs127/16 Strong Duality.pdf" target="_blank">Strong Duality</a></li>
-        <li> <a href="notes/eecs127/17 KKT, Optimality Conditions.pdf" target="_blank">KKT, Optimality Conditions</a></li>
-        <li> <a href="notes/eecs127/18 KKT, Formulating Optimization Problems.pdf" target="_blank">KKT, Formulating Optimization Problems</a></li>
-        <li> <a href="notes/eecs127/19 LPs.pdf" target="_blank">Linear Programs</a></li>
-        <li> <a href="notes/eecs127/20 QPs & SOCPs.pdf" target="_blank">QPs & SOCPs</a></li>
-        <li> <a href="notes/eecs127/21 SOCPs & Newtons Method.pdf" target="_blank">SOCPs & Newtons Method</a></li>
-        <li> <a href="notes/eecs127/22 L1 & LASSO.pdf" target="_blank">L1 & LASSO</a></li>
-        <li> <a href="notes/eecs127/23 Advanced Descent Methods.pdf" target="_blank">Advanced Descent Methods</a></li>
-        <li> <a href="notes/eecs127/24 Applications LQR Control.pdf" target="_blank">Applications: LQR Control</a></li>
-        <li> <a href="notes/eecs127/25 Applications SVMs.pdf" target="_blank">Applications: SVMs</a></li>
-        <li> <a href="notes/eecs127/26 SVM Applications.pdf" target="_blank">SVM Applications</a></li>
-      </ol>
-      <i>Cheatsheets</i>
-      <ul>
-      <li> <a href="notes/eecs127/eecs127 cheatsheet.pdf">Course Summary </a> </li>
-      </ul>
-      <hr>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Cheatsheets</heading>
+              <ul>
+                <li> <a href="notes/eecs16b/eecs16b cheatsheet.pdf">Course Summary </a> </li>
+              </ul>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Website source code from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.  
+              <!-- TODO: backlink -->
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
 
-    </main>
-  </body>
 </html>
